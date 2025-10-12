@@ -30,7 +30,7 @@ west flash --runner jlink
 To flash via USB DFU, boot the device into MCUboot by holding down DFU button
 while triggering a reset. Then:
 ```
-dfu-util -a 1 -d build/app/zephyr/zephyr.signed.bin.dfu
+dfu-util -a 1 -D build/app/zephyr/zephyr.signed.bin.dfu
 ```
 
 ## Example Usage
