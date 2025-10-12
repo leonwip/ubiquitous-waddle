@@ -1,0 +1,18 @@
+# Copyright (c) 2025 leonwip
+# SPDX-License-Identifier: Apache-2.0
+
+identifier: ubiquitous_waddle
+name: ubiquitous-waddle
+vendor: leonwip
+type: mcu
+arch: arm
+ram: 144
+flash: 512
+toolchain:
+  - zephyr
+  - gnuarmemb
+supported:
+  - can
+  - gpio
+  - usb_device
+  - usbd

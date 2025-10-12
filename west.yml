@@ -1,0 +1,17 @@
+# Copyright (c) 2025 leonwip
+# SPDX-License-Identifier: Apache-2.0
+
+manifest:
+  projects:
+    - name: zephyr
+      url: https://github.com/leonwip/zephyr
+      revision: v4.2.0+leonwip
+      import:
+        name-allowlist:
+          - cmsis_6
+          - hal_stm32
+          - segger
+          - mcuboot
+    - name: cannectivity
+      url: https://github.com/leonwip/cannectivity
+      revision: v1.2.0+leonwip

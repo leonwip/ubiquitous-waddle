@@ -1,0 +1,6 @@
+# Copyright (c) 2025 leonwip
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_UBIQUITOUS_WADDLE
+    select SOC_STM32G0B1XX
+    select HAS_SEGGER_RTT if ZEPHYR_SEGGER_MODULE
