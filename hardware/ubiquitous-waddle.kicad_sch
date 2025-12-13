@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ubiquitous-waddle")
-		(date "2025-10-12")
-		(rev "v1")
+		(date "2025-12-22")
+		(rev "v2")
 		(company "leonwip <leonwip@proton.me>")
 		(comment 1 "CERN-OHL-P-2.0")
 	)

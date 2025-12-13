@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ubiquitous-waddle")
-		(date "2025-10-12")
-		(rev "v1")
+		(date "2025-12-22")
+		(rev "v2")
 		(company "leonwip <leonwip@proton.me>")
 		(comment 1 "CERN-OHL-P-2.0")
 	)
@@ -3408,12 +3408,12 @@
 		(uuid "bf2ae89a-8f12-404e-819e-4f4b602f55c9")
 	)
 	(label "CAN1_ACT"
-		(at 142.24 106.68 0)
+		(at 86.36 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c2ab9fbb-fee4-4283-a718-5e4eab7ad60d")
 	)
@@ -3438,12 +3438,12 @@
 		(uuid "d5ed9203-4d05-48e4-88a3-a258f52477c9")
 	)
 	(label "CAN1_STA"
-		(at 86.36 91.44 180)
+		(at 142.24 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e56de0b6-1718-49bb-96d6-9f21a87cd02f")
 	)
@@ -4205,7 +4205,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 215.9 58.42 90)
+		(at 241.3 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4214,7 +4214,7 @@
 		(fields_autoplaced yes)
 		(uuid "38f82694-6d8b-4210-a7aa-5f482b5677bd")
 		(property "Reference" "D5"
-			(at 219.71 58.7374 90)
+			(at 245.11 58.7374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,8 +4222,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "YELLOW"
-			(at 219.71 61.2774 90)
+		(property "Value" "GREEN"
+			(at 245.11 61.2774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,8 +4231,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 215.9 58.42 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 241.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +4241,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 58.42 0)
+			(at 241.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4250,7 +4250,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 215.9 58.42 0)
+			(at 241.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +4259,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 215.9 58.42 0)
+			(at 241.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4267,8 +4267,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "710-150040YS73220"
-			(at 215.9 58.42 90)
+		(property "Mouser No" "710-150060GS55040"
+			(at 241.3 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,8 +4276,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" "150040YS73220"
-			(at 215.9 58.42 90)
+		(property "Mfr. No" "150060GS55040"
+			(at 241.3 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4286,7 +4286,7 @@
 			)
 		)
 		(property "Mfr." "Wurth Elektronik"
-			(at 215.9 58.42 90)
+			(at 241.3 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,7 +4557,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "YELLOW"
+		(property "Value" "GREEN"
 			(at 245.11 108.2674 90)
 			(effects
 				(font
@@ -4566,7 +4566,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 241.3 105.41 0)
 			(effects
 				(font
@@ -4602,7 +4602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "710-150040YS73220"
+		(property "Mouser No" "710-150060GS55040"
 			(at 241.3 105.41 90)
 			(effects
 				(font
@@ -4611,7 +4611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" "150040YS73220"
+		(property "Mfr. No" "150060GS55040"
 			(at 241.3 105.41 90)
 			(effects
 				(font
@@ -4730,7 +4730,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330Ω"
+		(property "Value" "68Ω"
 			(at 218.44 69.8499 0)
 			(effects
 				(font
@@ -4766,7 +4766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "71-CRCW0402330RJNEDC"
+		(property "Mouser No" "603-RC0402FR-0768RL"
 			(at 215.9 68.58 0)
 			(effects
 				(font
@@ -4775,7 +4775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" "CRCW0402330RJNEDC"
+		(property "Mfr. No" "RC0402FR-0768RL"
 			(at 215.9 68.58 0)
 			(effects
 				(font
@@ -4784,7 +4784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Vishay"
+		(property "Mfr." "YAGEO"
 			(at 215.9 68.58 0)
 			(effects
 				(font
@@ -4924,7 +4924,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330Ω"
+		(property "Value" "100Ω"
 			(at 243.84 116.8399 0)
 			(effects
 				(font
@@ -4960,7 +4960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "71-CRCW0402330RJNEDC"
+		(property "Mouser No" "603-RC0402FR-07100RL"
 			(at 241.3 115.57 0)
 			(effects
 				(font
@@ -4969,7 +4969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" "CRCW0402330RJNEDC"
+		(property "Mfr. No" "RC0402FR-07100RL"
 			(at 241.3 115.57 0)
 			(effects
 				(font
@@ -4978,7 +4978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Vishay"
+		(property "Mfr." "YAGEO"
 			(at 241.3 115.57 0)
 			(effects
 				(font
@@ -5070,7 +5070,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 241.3 58.42 90)
+		(at 215.9 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5079,7 +5079,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b36c5ab-13cd-4efb-947a-9222ab7fc97a")
 		(property "Reference" "D3"
-			(at 245.11 58.7374 90)
+			(at 219.71 58.7374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,8 +5087,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
-			(at 245.11 61.2774 90)
+		(property "Value" "YELLOW"
+			(at 219.71 61.2774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5096,8 +5096,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 241.3 58.42 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 215.9 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5106,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 58.42 0)
+			(at 215.9 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5115,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 241.3 58.42 0)
+			(at 215.9 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,7 +5124,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 241.3 58.42 0)
+			(at 215.9 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,8 +5132,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "710-150040GS73220"
-			(at 241.3 58.42 90)
+		(property "Mouser No" "710-150060YS55040"
+			(at 215.9 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,8 +5141,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" "150040GS73220"
-			(at 241.3 58.42 90)
+		(property "Mfr. No" "150060YS55040"
+			(at 215.9 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5151,7 +5151,7 @@
 			)
 		)
 		(property "Mfr." "Wurth Elektronik"
-			(at 241.3 58.42 90)
+			(at 215.9 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5193,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330Ω"
+		(property "Value" "68Ω"
 			(at 218.44 116.8399 0)
 			(effects
 				(font
@@ -5229,7 +5229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "71-CRCW0402330RJNEDC"
+		(property "Mouser No" "603-RC0402FR-0768RL"
 			(at 215.9 115.57 0)
 			(effects
 				(font
@@ -5238,7 +5238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" "CRCW0402330RJNEDC"
+		(property "Mfr. No" "RC0402FR-0768RL"
 			(at 215.9 115.57 0)
 			(effects
 				(font
@@ -5247,7 +5247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Vishay"
+		(property "Mfr." "YAGEO"
 			(at 215.9 115.57 0)
 			(effects
 				(font
@@ -5423,7 +5423,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330Ω"
+		(property "Value" "100Ω"
 			(at 243.84 69.8499 0)
 			(effects
 				(font
@@ -5459,7 +5459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "71-CRCW0402330RJNEDC"
+		(property "Mouser No" "603-RC0402FR-07100RL"
 			(at 241.3 68.58 0)
 			(effects
 				(font
@@ -5468,7 +5468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" "CRCW0402330RJNEDC"
+		(property "Mfr. No" "RC0402FR-07100RL"
 			(at 241.3 68.58 0)
 			(effects
 				(font
@@ -5477,7 +5477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Vishay"
+		(property "Mfr." "YAGEO"
 			(at 241.3 68.58 0)
 			(effects
 				(font
@@ -5967,7 +5967,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "YELLOW"
 			(at 219.71 108.2674 90)
 			(effects
 				(font
@@ -5976,7 +5976,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 215.9 105.41 0)
 			(effects
 				(font
@@ -6012,7 +6012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "710-150040GS73220"
+		(property "Mouser No" "710-150060YS55040"
 			(at 215.9 105.41 90)
 			(effects
 				(font
@@ -6021,7 +6021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" "150040GS73220"
+		(property "Mfr. No" "150060YS55040"
 			(at 215.9 105.41 90)
 			(effects
 				(font
