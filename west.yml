@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zephyr
       url: https://github.com/leonwip/zephyr
-      revision: v4.2.0+leonwip
+      revision: v4.3.0+leonwip
       import:
         name-allowlist:
           - cmsis_6
@@ -14,4 +14,4 @@ manifest:
           - mcuboot
     - name: cannectivity
       url: https://github.com/leonwip/cannectivity
-      revision: v1.2.0+leonwip
+      revision: v1.3.0+leonwip

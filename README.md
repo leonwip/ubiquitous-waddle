@@ -17,7 +17,7 @@ west update
 
 Then to build the release variant (with reduced logging):
 ```sh
-west build -b ubiquitous_waddle --sysbuild cannectivity/app -- -DSB_CONF_FILE=sysbuild-dfu.conf -DFILE_SUFFIX=release
+west build -b ubiquitous_waddle --sysbuild cannectivity/app -- -DSB_CONF_FILE=sysbuild-dfu.conf -DFILE_SUFFIX=usbd_next_release
 ```
 
 ### Flashing
@@ -27,10 +27,9 @@ To flash via JLink (SWD):
 west flash --runner jlink
 ```
 
-To flash via USB DFU, boot the device into MCUboot by holding down DFU button
-while triggering a reset. Then:
+To flash via USB DFU:
 ```
-dfu-util -a 1 -D build/app/zephyr/zephyr.signed.bin.dfu
+dfu-util -a 0 -D build/app/zephyr/zephyr.signed.bin.dfu
 ```
 
 ## Example Usage

@@ -2,10 +2,10 @@
     inputs = {
         nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
-        zephyr.url = "github:zephyrproject-rtos/zephyr/v4.2.0";
+        zephyr.url = "github:zephyrproject-rtos/zephyr/v4.3.0";
         zephyr.flake = false;
 
-        zephyr-nix.url = "github:nix-community/zephyr-nix/b614ffaa1343beacaca254213451186af10e88f6";
+        zephyr-nix.url = "github:nix-community/zephyr-nix/c041f535856725919b73a29d53ea2292b2a7c308";
         zephyr-nix.inputs.nixpkgs.follows = "nixpkgs";
         zephyr-nix.inputs.zephyr.follows = "zephyr";
     };
